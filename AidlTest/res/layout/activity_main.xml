@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/getList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="getlist"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/addbook"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="addbook"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="register"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/unregister"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="unregister"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
